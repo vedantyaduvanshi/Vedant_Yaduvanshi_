@@ -1,0 +1,142 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+
+.loading-bar
+{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 2px;
+    background: #ffffff;
+    transform: scaleX(0.3);
+    transform-origin: top left;
+    transition: transform 0.5s;
+}
+
+.loading-bar.ended
+{
+    transform: scaleX(0);
+    transform-origin: 100% 0;
+    transition: transform 1.5s ease-in-out;
+}
+
+.h2 {
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    color: wheat;
+   
+  }
+
+
+.h2 a{
+    color: wheat;
+    text-decoration: none;
+    
+}
+
+.h2 a:hover{
+    color: rgb(197, 197, 243);
+}
+
+
+
+
+
+
+  .h3 {
+    position: absolute;
+    left: 210px;
+    top: 30px;
+    color: wheat;
+  }
+  .h3 a{
+    color: wheat;
+    text-decoration: none;
+}
+
+
+
+.h3 a:hover{
+    color: rgb(197, 197, 243);
+}
+
+
+  .h4 {
+    position: absolute;
+    left: 330px;
+    top: 30px;
+    color: wheat;
+  }
+  .h4 a{
+    color: wheat;
+    text-decoration: none;
+}
+
+
+
+.h4 a:hover{
+    color: rgb(197, 197, 243);
+}
+
+.h5 {
+    position: absolute;
+    left: 440px;
+    top: 33px;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+  }
+
+
+  .h5 {
+    position: absolute;
+    left: 440px;
+    top: 33px;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+  }
+
+
+  #startButton {
+    position: absolute;
+    left: 700px;
+    top: 27px;  
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    height: 30px;
+    width: 150px;
+    font-style: unset;
+    font-weight: 700;
+    
+  }
+
+  #startButton:hover{
+   background-color: aquamarine;
+  }
+
+  #startButton:active{
+       background-color: cornflowerblue;
+  }
+
+
+
+/*# sourceMappingURL=main.css.map*/
